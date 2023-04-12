@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services - My Salon</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="services">
+            <h2>Hair Services</h2>
+            <ul>
+                <li>
+                    <img src="{{ url_for('static', filename='haircut.jpg') }}" alt="Haircut">
+                    <h3>Haircut</h3>
+                    <p>Our experienced stylists will give you a haircut that complements your face shape and hair texture. We use high-quality hair products to give you the best results.</p>
+                    <a href="#">Book Now</a>
+                </li>
+                <li>
+                    <img src="{{ url_for('static', filename='hair_color.jpg') }}" alt="Hair Color">
+                    <h3>Hair Color</h3>
+                    <p>Whether you want a subtle change or a dramatic transformation, we can help you achieve the perfect hair color. We use professional-grade hair color that is safe for your hair and scalp.</p>
+                    <a href="#">Book Now</a>
+                </li>
+                <li>
+                    <img src="{{ url_for('static', filename='highlights.jpg') }}" alt="Highlights">
+                    <h3>Highlights</h3>
+                    <p>Highlights can add dimension and depth to your hair. Our stylists can create a custom highlight look that complements your hair color and skin tone.</p>
+                    <a href="#">Book Now</a>
+                </li>
+            </ul>
+        </section>
+        <section class="services">
+            <h2>Beauty Services</h2>
+            <ul>
+                <li>
+                    <img src="{{ url_for('static', filename='manicure.jpg') }}" alt="Manicure">
+                    <h3>Manicure</h3>
+                    <p>Pamper your hands with our relaxing manicure service. Our nail technicians will shape, buff, and polish your nails to perfection.</p>
+                    <a href="#">Book Now</a>
+                </li>
+                <li>
+                    <img src="{{ url_for('static', filename='pedicure.jpg') }}" alt="Pedicure">
+                    <h3>Pedicure</h3>
+                    <p>Treat your feet to a luxurious pedicure. Our nail technicians will soak, exfoliate, and massage your feet to leave them feeling soft and smooth.</p>
+                    <a href="#">Book Now</a>
+                </li>
+                <li>
+                    <img src="{{ url_for('static', filename='facial.jpg') }}" alt="Facial">
+                    <h3>Facial</h3>
+                    <p>Our facials are customized to your skin type and concerns. We use high-quality skincare products to cleanse, exfoliate, and hydrate your skin.</p>
+                    <a href="#">Book Now</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; My Salon 2023</p>
+   
